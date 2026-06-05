@@ -1,0 +1,36 @@
+# Hong Kong Highest-Temperature Market Forecast
+
+- Market: https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-5-2026
+- Time checked: 2026-06-05 10:47 HKT
+- Predicted outcome: 35°C bucket, likely 35.0-35.9°C official HKO Absolute Daily Max
+- Confidence: medium; HKO's official forecast is 35°C and heat-supporting subsiding air is present, but the 34/35 boundary is narrow and showers could cap the official station below 35.0°C.
+- Recommendation: Yes on 35°C only if available near the low-40% price shown; no strong chase if it moves materially higher. Avoid 36°C-or-higher at roughly 10% unless new noon observations accelerate sharply.
+
+## Market Pricing Snapshot
+
+- 34°C: about 49% implied; buy Yes around 49c, buy No around 52c
+- 35°C: about 39% implied; buy Yes around 41c, buy No around 63c
+- 36°C or higher: about 10% implied; buy Yes around 10.7c
+- 33°C: about 4% implied
+- Lower buckets: near zero to 1%
+
+## Key Drivers
+
+- HKO 9-day forecast updated 10:35 HKT lists today's maximum temperature at 35°C.
+- HKO current weather forecast updated 10:30 HKT says extremely hot with sunny periods, isolated showers and squally thunderstorms, and moderate west to southwesterly winds.
+- HKO's general situation says a tropical cyclone near Taiwan is producing subsiding air over Guangdong today, supporting extreme heat before weekend showers cool conditions.
+- At 10:00 HKT, the official Hong Kong Observatory station was 31°C while regional stations such as Tai Po and Sai Kung were already 34°C, leaving room for the official station to rise into the afternoon.
+- The market is tightly split between 34°C and 35°C, but HKO's latest official max forecast gives 35°C a modest edge over the 39-41% market price.
+
+## Risks To The Call
+
+- Isolated showers or increased cloud cover could arrive before peak heating and keep the official HKO station at 34.x°C.
+- The market resolves on the HKO station's finalized Absolute Daily Max to one decimal place, not hotter regional stations.
+- A late burst above 36.0°C is possible under weak winds and subsiding air, but current evidence does not make that the central case.
+
+## Sources
+
+- Polymarket market page, checked 2026-06-05 10:47 HKT.
+- Hong Kong Observatory open data: local weather forecast updated 2026-06-05 10:30 HKT.
+- Hong Kong Observatory open data: regional current weather observations at 2026-06-05 10:00 HKT.
+- Hong Kong Observatory open data: 9-day forecast updated 2026-06-05 10:35 HKT.
