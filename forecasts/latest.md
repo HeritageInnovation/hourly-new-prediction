@@ -1,27 +1,28 @@
 # Hong Kong Highest-Temperature Market Forecast
 
 - Market: https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-6-2026
-- Time checked: 2026-06-06 15:18 HKT
+- Time checked: 2026-06-06 16:16 HKT
 - Active market pricing: Jun 6 highest temperature: 30°C 93.1%, 31°C 7%, 32°C about 1.3-1.4%, 33°C <1%, 34°C <1%, with other buckets effectively <1%. Volume about $114.5K.
-- Forward market checked: https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-7-2026, with early pricing around 31°C 24%, 29°C 22%, 30°C 21%, 32°C 16%, 28°C 9%, 33°C 7%, and 34°C or higher 1%. Liquidity is still thin, roughly $1K-$2K.
-- Predicted outcome today: 30°C bucket for Jun 6. Base case is that the official HKO station finishes in the 30.0-30.9°C range; at 15:00 HKT the HKO station was down to 27°C with showers and thunderstorm conditions, making a fresh 31°C+ late-day print less likely.
-- Predicted outcome tomorrow: 30°C bucket for Jun 7, with 29°C and 31°C both live depending on shower timing and any sunny breaks. Base case official maximum is around 30.0-30.8°C.
-- Confidence: medium. Today's setup is stronger than tomorrow's because late-day HKO observations and market pricing both point toward 30°C, but the official daily maximum is not finalized. Tomorrow has good HKO support for 30°C, but rain timing creates one-bucket risk either way.
-- Recommendation: No new bet on the current Jun 6 market. The likely 30°C outcome is already priced around 93c, leaving little compensation for final-data or late-day bucket risk. For Jun 7, there is a small watchlist lean toward Yes on 30°C while it trades in the low-to-mid 20c range, but it is not a high-conviction trade yet.
+- Forward market checked: https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-7-2026, with early pricing around 30°C 29% / Buy Yes 31c, 31°C 25%, 29°C 24% / Buy Yes 25c, 32°C 16% / Buy Yes 18c, 28°C 7%, 33°C 4%, and 34°C or higher 2%. Liquidity is still thin, around $2.0K.
+- Predicted outcome today: 30°C bucket for Jun 6. HKO's provisional regional maximum table shows the Hong Kong Observatory station at 30.4°C maximum since midnight as of 16:00 HKT; that sits in the 30.0-30.9°C bucket. With the latest official current-weather report showing the HKO station down at 27°C at 15:00 HKT under showers/thunderstorms, a late push to 31.0°C+ looks unlikely.
+- Predicted outcome tomorrow: 30°C bucket for Jun 7, with 29°C and 31°C both live depending on shower timing and sunny breaks. Base case official maximum is around 30.0-30.8°C.
+- Confidence: high for today's 30°C bucket, medium-low for tomorrow. Today's call is anchored by the HKO station's observed/provisional max and falling rainy-afternoon temperatures; tomorrow still has one-bucket risk from rain timing and cloud breaks.
+- Recommendation: Yes, modest lean to Jun 6 30°C Yes while it is priced near 93c, but not an aggressive bet. My estimated probability is above the market price, roughly mid-to-high 90s, yet the remaining edge is small after late-day and official-final-data risk. For Jun 7, keep 30°C on watch; low-30c pricing is plausible value but not yet a high-conviction entry because 29°C/31°C remain close alternatives.
 
 ## Key Drivers
 
-- The provided Jun 5 market is stale/post-event; Polymarket navigation now points to the active Jun 6 and Jun 7 markets.
+- The provided Jun 5 market is stale/post-event; the active current market is Jun 6, with Jun 7 now open as the forward market.
 - Polymarket resolves these contracts against HKO's finalized "Absolute Daily Max (deg. C)" in the Daily Extract at one-decimal precision, so the Hong Kong Observatory station matters more than hotter regional stations.
-- HKO current observations at 15:00 HKT showed the Hong Kong Observatory station at 27°C with 87% humidity; hotter listed regional stations were around 28-29°C.
-- HKO's 14:45 local forecast says a broad trough is bringing showers and thunderstorms to the Guangdong coast, with mainly cloudy weather and heavier showers in some areas this afternoon and tonight.
-- HKO's 13:15 9-day forecast for Jun 7 gives a 30°C maximum, mainly cloudy weather, occasional showers, heavier showers in some areas, and squally thunderstorms with high probability of significant rain.
-- Weather-Forecast broadly agrees with a rain-capped setup near 30°C. Timeanddate and meteoblue are warmer for the broader Hong Kong/HKIA area, so I treat them as upside-risk inputs rather than the base case for the HKO station.
+- HKO's provisional since-midnight table at 16:00 HKT shows HK Observatory maximum at 30.4°C, while other hotter regional stations such as Chek Lap Kok and Sham Shui Po do not determine this market.
+- HKO current observations show the official HKO station at 27°C at 15:00 HKT, humidity 87%, low UV at King's Park, recent lightning over Hong Kong/Kowloon, and rainfall in some districts.
+- HKO's local forecast says a broad trough is bringing showers and thunderstorms to the Guangdong coast, with mainly cloudy weather and heavier showers in some areas this afternoon and tonight.
+- HKO's 9-day forecast for Jun 7 gives a 30°C maximum with mainly cloudy weather, occasional showers, heavier showers in some areas, squally thunderstorms, and high probability of significant rain.
+- Weather.com is close to HKO for the forward setup, showing 31°C today and 30°C Sunday with thunderstorms; Weather-Forecast also describes a rain-capped 1-3 day setup with a maximum around 30°C.
 
 ## Risks To The Call
 
-- The official HKO intraday maximum may already have reached 31.0°C+ before the latest observation, which would invalidate the Jun 6 30°C bucket call.
-- Any late sunny break or lull in showers could still lift the official station by about one bucket.
+- The provisional 30.4°C reading could be revised in the finalized HKO Daily Extract, though a revision all the way across the 31.0°C bucket threshold is not the base case.
+- A sudden late sunny break before evening could still lift the HKO station into the 31°C bucket.
 - For Jun 7, heavier or earlier rainfall could cap the high in the 29°C bucket, while broken cloud and stronger southwest flow could push 31°C.
 - Resolution uses HKO's finalized Absolute Daily Max at the Hong Kong Observatory station to one decimal place; broader Hong Kong, airport, and regional-station temperatures can differ materially.
 
@@ -29,10 +30,10 @@
 
 - Polymarket Jun 6 market: https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-6-2026
 - Polymarket Jun 7 market: https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-7-2026
+- HKO regional max/min since midnight CSV: https://data.weather.gov.hk/weatherAPI/hko_data/regional-weather/latest_since_midnight_maxmin.csv
 - HKO current weather report API: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en
 - HKO local weather forecast API: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=en
 - HKO 9-day forecast API: https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en
-- HKO daily maximum temperature data resource: https://data.gov.hk/en-data/dataset/hk-hko-rss-daily-temperature-info-hko/resource/fa0008a3-035f-4d5d-a342-81b1c858529f
+- HKO open data catalogue: https://www.hko.gov.hk/en/abouthko/opendata_intro.htm
+- Weather.com Hong Kong 10-day forecast: https://weather.com/en-GB/weather/tenday/l/Hong%2BKong%2BPeople%27s%2BRepublic%2Bof%2BChina?placeId=3d0654fa7f86f5b20cb9cf9de12fd82013d721bacfe9b4a49cd3cc0160b8679e
 - Weather-Forecast Hong Kong forecast: https://www.weather-forecast.com/locations/Hong-Kong/forecasts/latest
-- Timeanddate hourly forecast: https://www.timeanddate.com/weather/hong-kong/hong-kong/hourly
-- Meteoblue Hong Kong forecast: https://www.meteoblue.com/en/weather/week/hong-kong_hong-kong_1819729
