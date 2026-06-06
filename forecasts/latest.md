@@ -3,11 +3,11 @@
 - Market: https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-7-2026
 - Prior/current-day market reference: https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-6-2026
 - Time checked: 2026-06-06 21:13 HKT
-- Active market pricing: Jun 7 highest temperature was led by 30°C around 32% / Buy Yes about 34c, followed by 31°C around 23%, 29°C around 21% / Buy Yes about 24c, 28°C around 15%, 32°C around 12%, 33°C around 4%, and 34°C or higher around 1%. Visible event volume was about $12.8K.
+- Active market pricing: Jun 7 highest temperature was led by 30°C around 30% / Buy Yes about 30c, followed by 31°C around 26%, 29°C around 21%, 28°C around 15-16%, 32°C around 11%, 33°C around 2%, and 34°C or higher around 1%. Visible page volume was about $8.4K on the latest fetched Polymarket view.
 - Predicted outcome today: 30°C bucket for Jun 6. HKO provisional since-midnight max at the HK Observatory station was 30.4°C at 20:50 HKT; by 20:00 HKT the station was down to 26°C with Red Rainstorm and Thunderstorm warnings active, so a late move into 31.0°C+ looks very unlikely. Final Daily Extract is still pending.
 - Predicted outcome tomorrow: 30°C bucket for Jun 7, with 29°C as the main downside/rain-cap alternative and 31°C as the main upside/sunny-break alternative. Base case official-station maximum is about 30.0-30.8°C.
 - Confidence: medium overall. Today's 30°C bucket is high confidence because it is observation-led; tomorrow is medium because heavy showers can cap the day below 30°C, while a short dry/bright interval can push the HKO station into 31°C.
-- Recommendation: yes, but only small/controlled size on Jun 7 30°C Yes if executable around the low-to-mid 30c range. My fair value is roughly low-to-mid 40s probability, so the edge is price-sensitive. No fresh bet on Jun 6 because it is nearly settled and priced accordingly.
+- Recommendation: yes on Jun 7 30°C Yes at roughly 30c, with controlled sizing. My fair value is roughly low-to-mid 40s probability, so the latest 30c quote looks like a modest positive edge. No fresh bet on Jun 6 because it is nearly settled and priced accordingly.
 
 ## Key Drivers
 
