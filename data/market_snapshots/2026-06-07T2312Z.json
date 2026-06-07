@@ -1,0 +1,60 @@
+{
+  "timestamp_utc": "2026-06-07T23:12:05Z",
+  "timestamp_hkt": "2026-06-08T07:12:05+08:00",
+  "real_trades_executed": false,
+  "markets": [
+    {
+      "market": "Polymarket NYC highest temperature Jun 8 2026",
+      "contract": "78-79F YES",
+      "observed_price": 0.18,
+      "implied_probability": 0.18,
+      "estimated_fair_value_range": [0.35, 0.45],
+      "edge_range": [0.17, 0.27],
+      "confidence": "medium-low",
+      "decision": "open_paper_trade",
+      "paper_trade_id": "PT-20260607-068"
+    },
+    {
+      "market": "Polymarket Hong Kong highest temperature Jun 8 2026",
+      "contract": "30C YES",
+      "observed_price": 0.26,
+      "implied_probability": 0.26,
+      "estimated_fair_value_range": [0.32, 0.42],
+      "edge_range": [0.06, 0.16],
+      "confidence": "low-to-medium-low",
+      "decision": "open_paper_trade",
+      "paper_trade_id": "PT-20260607-069"
+    },
+    {
+      "market": "Polymarket London highest temperature Jun 8 2026",
+      "contract": "19C YES",
+      "observed_price": 0.16,
+      "implied_probability": 0.16,
+      "estimated_fair_value_range": [0.24, 0.34],
+      "edge_range": [0.08, 0.18],
+      "confidence": "low-to-medium-low",
+      "decision": "maintain_no_duplicate"
+    },
+    {
+      "market": "Polymarket Houston highest temperature Jun 8 2026",
+      "contract": "88-89F YES",
+      "observed_price": 0.39,
+      "implied_probability": 0.39,
+      "estimated_fair_value_range": [0.42, 0.52],
+      "edge_range": [0.03, 0.13],
+      "confidence": "medium-low",
+      "decision": "maintain_no_duplicate"
+    }
+  ],
+  "sources": [
+    "https://polymarket.com/tl/event/highest-temperature-in-nyc-on-june-8-2026",
+    "https://forecast.weather.gov/MapClick.php?lat=40.77917&lon=-73.88",
+    "https://polymarket.com/es/event/highest-temperature-in-hong-kong-on-june-8-2026",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+    "https://polymarket.com/tl/event/highest-temperature-in-london-on-june-8-2026",
+    "https://weather.metoffice.gov.uk/forecast/u10j124jp?new-design=false",
+    "https://polymarket.com/tl/event/highest-temperature-in-houston-on-june-8-2026",
+    "https://forecast.weather.gov/MapClick.php?lat=29.6454&lon=-95.2789"
+  ]
+}
