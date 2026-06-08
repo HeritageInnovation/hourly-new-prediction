@@ -1,0 +1,107 @@
+{
+  "timestamp_utc": "2026-06-08T19:08:08Z",
+  "timestamp_hkt": "2026-06-09T03:08:08+08:00",
+  "scheduled_invocation_hkt": "2026-06-09T03:07:01+08:00",
+  "real_trades_executed": false,
+  "markets_monitored": [
+    "Polymarket NYC KLGA Jun 9 highest temperature",
+    "Polymarket Atlanta KATL Jun 9 highest temperature",
+    "Polymarket Chicago KORD Jun 9 highest temperature",
+    "Polymarket Miami KMIA Jun 9 highest temperature",
+    "Polymarket London EGLC Jun 9 highest temperature",
+    "Polymarket Houston KHOU Jun 9 highest temperature",
+    "Polymarket Hong Kong Observatory Jun 9 highest temperature"
+  ],
+  "top_edges": [
+    {
+      "market": "NYC KLGA Jun 9 80-81F YES",
+      "current_price": "28-31c buy Yes; 28-31% displayed across localized pages",
+      "implied_probability": "28-31%",
+      "estimated_fair_value": "40-50%",
+      "estimated_edge": "+9 to +22 percentage points",
+      "confidence": "medium-low",
+      "classification": "moderate edge",
+      "paper_trade_id": "PT-20260608-080",
+      "paper_trade_size_usd": 10,
+      "notes": "Cleaner hedge after NWS KLGA forecast centered near 80F."
+    },
+    {
+      "market": "Atlanta KATL Jun 9 84-85F YES",
+      "current_price": "16c buy Yes on cleanest readable page; other localized page higher/conflicted around 23c",
+      "implied_probability": "16%",
+      "estimated_fair_value": "26-38%",
+      "estimated_edge": "+10 to +22 percentage points if low quote is live",
+      "confidence": "low",
+      "classification": "quote-sensitive moderate edge",
+      "paper_trade_id": "PT-20260608-081",
+      "paper_trade_size_usd": 10,
+      "notes": "NWS KATL now high near 84F; storms and quote quality cap conviction."
+    },
+    {
+      "market": "Chicago KORD Jun 9 86-87F YES",
+      "current_price": "22-38c buy Yes across localized pages",
+      "implied_probability": "22-38%",
+      "estimated_fair_value": "32-44%",
+      "estimated_edge": "positive only on low pages",
+      "confidence": "low to medium-low",
+      "classification": "represented moderate edge",
+      "paper_trade_id": "PT-20260608-078",
+      "notes": "Maintained only; no duplicate below entry."
+    },
+    {
+      "market": "Miami KMIA Jun 9 90-91F YES",
+      "current_price": "14-32c buy Yes across localized pages",
+      "implied_probability": "14-32%",
+      "estimated_fair_value": "24-36%",
+      "estimated_edge": "meaningful only on low pages",
+      "confidence": "low to medium-low",
+      "classification": "represented quote-sensitive edge",
+      "paper_trade_id": "PT-20260608-077",
+      "notes": "Maintained only; no duplicate."
+    }
+  ],
+  "paper_trades_opened": [
+    {
+      "trade_id": "PT-20260608-080",
+      "market": "Polymarket NYC KLGA Jun 9 highest temperature 80-81F YES",
+      "observed_price": "28c",
+      "implied_probability": "28%",
+      "estimated_fair_value": "40-50%",
+      "simulated_stance": "BUY_YES",
+      "simulated_size_usd": 10,
+      "confidence": "medium-low",
+      "status": "open",
+      "outcome": "unresolved"
+    },
+    {
+      "trade_id": "PT-20260608-081",
+      "market": "Polymarket Atlanta KATL Jun 9 highest temperature 84-85F YES",
+      "observed_price": "16c",
+      "implied_probability": "16%",
+      "estimated_fair_value": "26-38%",
+      "simulated_stance": "BUY_YES",
+      "simulated_size_usd": 10,
+      "confidence": "low",
+      "status": "open",
+      "outcome": "unresolved"
+    }
+  ],
+  "sources": [
+    "https://polymarket.com/tl/event/highest-temperature-in-nyc-on-june-9-2026/highest-temperature-in-nyc-on-june-9-2026-80-81f",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KLGA",
+    "https://polymarket.com/tl/event/highest-temperature-in-atlanta-on-june-9-2026/highest-temperature-in-atlanta-on-june-9-2026-84-85f",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KATL",
+    "https://polymarket.com/tl/event/highest-temperature-in-chicago-on-june-9-2026/highest-temperature-in-chicago-on-june-9-2026-86-87f",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KORD",
+    "https://polymarket.com/tl/event/highest-temperature-in-miami-on-june-9-2026/highest-temperature-in-miami-on-june-9-2026-90-91f",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KMIA",
+    "https://polymarket.com/tl/event/highest-temperature-in-london-on-june-9-2026",
+    "https://weather.metoffice.gov.uk/forecast/u10j124jp",
+    "https://polymarket.com/tl/event/highest-temperature-in-houston-on-june-9-2026",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KHOU",
+    "https://polymarket.com/tl/event/highest-temperature-in-hong-kong-on-june-9-2026",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=en",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en"
+  ]
+}
