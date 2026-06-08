@@ -4,6 +4,7 @@ This file tracks simulated paper positions only. It is not a record of real bets
 
 ## Current focus
 
+- 2026-06-08 19:08 UTC run: opened PT-20260608-080 on NYC KLGA Jun 9 80-81F YES at 28c, $10 simulated notional, and PT-20260608-081 on Atlanta KATL Jun 9 84-85F YES at 16c, $10 simulated notional. NYC is the cleaner moderate edge after NWS KLGA centered Tuesday near 80F; Atlanta is quote-sensitive and lower confidence after NWS KATL warmed to high near 84F but price pages conflicted. Maintain Chicago 86-87F, Miami 90-91F, and London 19C without duplicates. NYC 82-83F remains tracking/adverse-to-neutral.
 - 2026-06-08 00:12 UTC run: no new paper-only positions opened. Current best gaps are maintained edges already represented in the paper book, and localized Polymarket price disagreement is too high for added simulated exposure.
 - Houston KHOU Jun 8 88-89F YES remains the top maintained edge: current readable range roughly 32-39c versus fair 42-52%. Maintain PT-20260607-059 from 32c only; do not duplicate unless a verified quote falls materially below entry or KHOU-specific evidence strengthens.
 - Miami KMIA Jun 8 90-91F YES remains a represented raw gap: current readable range roughly 20-31c versus fair 34-44%. Maintain PT-20260607-058/PT-20260607-062/PT-20260607-066 only; no fourth add unless a clean quote falls materially below 15c or KMIA-specific evidence strengthens.
