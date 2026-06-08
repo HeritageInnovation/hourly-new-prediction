@@ -1,0 +1,108 @@
+{
+  "time_checked_utc": "2026-06-08T11:08:33Z",
+  "time_checked_hkt": "2026-06-08T19:08:33+08:00",
+  "no_real_trades_or_bets": true,
+  "markets_monitored": [
+    "Polymarket Hong Kong Observatory Jun 8 highest temperature",
+    "Polymarket Miami KMIA Jun 8 highest temperature",
+    "Polymarket NYC KLGA Jun 8 highest temperature",
+    "Polymarket Chicago KORD Jun 8 highest temperature",
+    "Polymarket London EGLC Jun 8 highest temperature",
+    "Polymarket Houston KHOU Jun 8 highest temperature",
+    "Polymarket Atlanta KATL Jun 8 highest temperature"
+  ],
+  "top_edges": [
+    {
+      "market": "Hong Kong Observatory Jun 8 30C YES",
+      "current_price": "30C 31% displayed; buy Yes 32c on cleanest current visible page",
+      "implied_probability": "31-32%",
+      "estimated_fair_value": "82-90%",
+      "estimated_edge": "+50 to +59 percentage points",
+      "confidence": "medium",
+      "classification": "strong edge",
+      "action": "opened small paper-only add PT-20260608-075"
+    },
+    {
+      "market": "Miami KMIA Jun 8 90-91F YES",
+      "current_price": "visible pages conflict around 17-31c",
+      "implied_probability": "16-31%",
+      "estimated_fair_value": "30-42%",
+      "estimated_edge": "-1 to +25 percentage points",
+      "confidence": "low to medium-low",
+      "classification": "moderate represented edge if low quote is live",
+      "action": "maintain existing paper entries only"
+    },
+    {
+      "market": "NYC KLGA Jun 8 76-77F YES",
+      "current_price": "roughly 32-43c across visible pages",
+      "implied_probability": "32-43%",
+      "estimated_fair_value": "40-52%",
+      "estimated_edge": "-3 to +20 percentage points",
+      "confidence": "low to medium-low",
+      "classification": "moderate watch-only hedge",
+      "action": "watch only due NYC concentration cap"
+    },
+    {
+      "market": "Chicago KORD Jun 8 82-83F YES",
+      "current_price": "roughly 35-40c across visible pages",
+      "implied_probability": "34-40%",
+      "estimated_fair_value": "40-50%",
+      "estimated_edge": "0 to +16 percentage points",
+      "confidence": "medium-low",
+      "classification": "moderate represented edge",
+      "action": "maintain PT-20260608-071 only"
+    },
+    {
+      "market": "London EGLC Jun 8 17C YES",
+      "current_price": "around 41c",
+      "implied_probability": "41%",
+      "estimated_fair_value": "43-53%",
+      "estimated_edge": "+2 to +12 percentage points",
+      "confidence": "low to medium-low",
+      "classification": "weak to moderate represented edge",
+      "action": "maintain PT-20260608-070 only"
+    },
+    {
+      "market": "Houston KHOU Jun 8 88-89F YES",
+      "current_price": "around 40-41c",
+      "implied_probability": "40-41%",
+      "estimated_fair_value": "44-54%",
+      "estimated_edge": "+3 to +14 percentage points",
+      "confidence": "low to medium-low",
+      "classification": "weak to moderate represented edge",
+      "action": "maintain PT-20260607-059 only"
+    }
+  ],
+  "paper_trades_opened": [
+    {
+      "trade_id": "PT-20260608-075",
+      "market": "Polymarket Hong Kong Observatory Jun 8 highest temperature 30C YES",
+      "observed_price": "32c",
+      "implied_probability": "32%",
+      "estimated_fair_value": "82-90%",
+      "simulated_stance": "BUY_YES",
+      "simulated_size_usd": 20,
+      "confidence": "medium",
+      "status": "open"
+    }
+  ],
+  "paper_trades_voided": [],
+  "sources": [
+    "https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-8-2026",
+    "https://www.weather.gov.hk/textonly/v2/forecast/text_readings_e.htm",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=en",
+    "https://polymarket.com/event/highest-temperature-in-miami-on-june-8-2026",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KMIA",
+    "https://polymarket.com/event/highest-temperature-in-nyc-on-june-8-2026",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KLGA",
+    "https://polymarket.com/event/highest-temperature-in-chicago-on-june-8-2026",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KORD",
+    "https://polymarket.com/event/highest-temperature-in-london-on-june-8-2026",
+    "https://weather.metoffice.gov.uk/forecast/u10j124jp",
+    "https://polymarket.com/event/highest-temperature-in-houston-on-june-8-2026",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KHOU",
+    "https://polymarket.com/event/highest-temperature-in-atlanta-on-june-8-2026",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KATL"
+  ]
+}
