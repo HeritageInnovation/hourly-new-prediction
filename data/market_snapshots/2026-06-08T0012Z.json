@@ -1,0 +1,111 @@
+{
+  "timestamp_utc": "2026-06-08T00:12:32Z",
+  "timestamp_hkt": "2026-06-08T08:12:32+08:00",
+  "scheduled_invocation_hkt": "2026-06-08T08:07:02+08:00",
+  "real_trades_executed": false,
+  "new_paper_trades": [],
+  "markets": [
+    {
+      "market": "Polymarket Houston highest temperature Jun 8 2026",
+      "contract": "88-89F YES",
+      "observed_price_range": [0.32, 0.39],
+      "implied_probability_range": [0.32, 0.39],
+      "estimated_fair_value_range": [0.42, 0.52],
+      "edge_range": [0.03, 0.20],
+      "confidence": "medium-low",
+      "decision": "maintain_no_duplicate",
+      "paper_trade_ids": ["PT-20260607-059"],
+      "notes": "NWS KHOU forecast centers near 89F; readable Polymarket quotes conflict and prior entry already exists at 32c."
+    },
+    {
+      "market": "Polymarket Miami highest temperature Jun 8 2026",
+      "contract": "90-91F YES",
+      "observed_price_range": [0.20, 0.31],
+      "implied_probability_range": [0.20, 0.31],
+      "estimated_fair_value_range": [0.34, 0.44],
+      "edge_range": [0.03, 0.24],
+      "confidence": "low-to-medium-low",
+      "decision": "maintain_no_duplicate",
+      "paper_trade_ids": ["PT-20260607-058", "PT-20260607-062", "PT-20260607-066"],
+      "notes": "NWS KMIA high near 90F supports the bucket; sea-breeze and price-disagreement risks block a fourth add."
+    },
+    {
+      "market": "Polymarket Hong Kong highest temperature Jun 8 2026",
+      "contract": "30C YES",
+      "observed_price_range": [0.25, 0.34],
+      "implied_probability_range": [0.25, 0.34],
+      "estimated_fair_value_range": [0.34, 0.44],
+      "edge_range": [0.0, 0.19],
+      "confidence": "low-to-medium-low",
+      "decision": "maintain_no_duplicate",
+      "paper_trade_ids": ["PT-20260607-069"],
+      "notes": "HKO forecasts around 30C and observed 27C at 07:00 HKT; localized Polymarket pages conflict."
+    },
+    {
+      "market": "Polymarket NYC highest temperature Jun 8 2026",
+      "contract": "78-79F YES",
+      "observed_price_range": [0.30, 0.38],
+      "implied_probability_range": [0.30, 0.38],
+      "estimated_fair_value_range": [0.40, 0.48],
+      "edge_range": [0.02, 0.18],
+      "confidence": "medium-low",
+      "decision": "maintain_no_duplicate",
+      "paper_trade_ids": ["PT-20260607-061", "PT-20260607-064", "PT-20260607-068"],
+      "notes": "NWS KLGA high near 78F supports 78-79F, but 76-77F cap risk and existing concentration block another add."
+    },
+    {
+      "market": "Polymarket London highest temperature Jun 8 2026",
+      "contract": "19C YES",
+      "observed_price_range": [0.18, 0.19],
+      "implied_probability_range": [0.18, 0.19],
+      "estimated_fair_value_range": [0.24, 0.34],
+      "edge_range": [0.05, 0.16],
+      "confidence": "low-to-medium-low",
+      "decision": "maintain_no_duplicate",
+      "paper_trade_ids": ["PT-20260607-060", "PT-20260607-067"],
+      "notes": "Met Office daily card shows 19C but hourly trace peaks at 18C."
+    },
+    {
+      "market": "Polymarket Atlanta highest temperature Jun 8 2026",
+      "contract": "80-81F YES",
+      "observed_price_range": [0.39, 0.42],
+      "implied_probability_range": [0.39, 0.42],
+      "estimated_fair_value_range": [0.36, 0.46],
+      "edge_range": [-0.06, 0.07],
+      "confidence": "medium-low",
+      "decision": "near_fair_maintain_only",
+      "paper_trade_ids": ["PT-20260607-065"],
+      "notes": "NWS high near 80F with showers and thunderstorms likely; current price largely reflects the shift."
+    },
+    {
+      "market": "Polymarket Chicago highest temperature Jun 8 2026",
+      "contract": "82-83F YES",
+      "observed_price_range": [0.35, 0.40],
+      "implied_probability_range": [0.35, 0.40],
+      "estimated_fair_value_range": [0.34, 0.44],
+      "edge_range": [-0.06, 0.09],
+      "confidence": "medium-low",
+      "decision": "near_fair_no_entry",
+      "paper_trade_ids": [],
+      "notes": "NWS O'Hare-area high near 83F with storms likely after early day; market already centers 82-83F."
+    }
+  ],
+  "sources": [
+    "https://polymarket.com/event/highest-temperature-in-nyc-on-june-8-2026",
+    "https://forecast.weather.gov/MapClick.php?lat=40.77917&lon=-73.88",
+    "https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-8-2026",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=en",
+    "https://polymarket.com/event/highest-temperature-in-london-on-june-8-2026",
+    "https://weather.metoffice.gov.uk/forecast/u10j124jp",
+    "https://polymarket.com/event/highest-temperature-in-houston-on-june-8-2026",
+    "https://forecast.weather.gov/MapClick.php?lat=29.6454&lon=-95.2789",
+    "https://polymarket.com/event/highest-temperature-in-atlanta-on-june-8-2026",
+    "https://forecast.weather.gov/MapClick.php?lat=33.6367&lon=-84.4281",
+    "https://polymarket.com/event/highest-temperature-in-miami-on-june-8-2026",
+    "https://forecast.weather.gov/MapClick.php?lat=25.78810&lon=-80.31690",
+    "https://polymarket.com/event/highest-temperature-in-chicago-on-june-8-2026",
+    "https://forecast.weather.gov/MapClick.php?lat=41.8995&lon=-87.9403"
+  ]
+}
