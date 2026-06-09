@@ -1,0 +1,92 @@
+{
+  "timestamp_utc": "2026-06-09T17:14:42Z",
+  "timestamp_hkt": "2026-06-10T01:14:43+08:00",
+  "real_trading_actions": "none",
+  "new_paper_trades": [],
+  "markets": [
+    {
+      "market": "Polymarket NYC KLGA highest temperature Jun 10 2026 76-77F YES",
+      "observed_price": "about 17c; 78-79F leads around 43%",
+      "implied_probability": 0.17,
+      "estimated_fair_value": "0.30-0.42",
+      "edge_points": "13-25",
+      "confidence": "medium-low",
+      "action": "maintain PT-20260609-090; no duplicate"
+    },
+    {
+      "market": "Polymarket Hong Kong Observatory highest temperature Jun 10 2026 28C YES",
+      "observed_price": "about 29-34c across visible pages",
+      "implied_probability": "0.29-0.34",
+      "estimated_fair_value": "0.40-0.52",
+      "edge_points": "6-23",
+      "confidence": "medium-low",
+      "action": "maintain PT-20260609-091; no duplicate"
+    },
+    {
+      "market": "Polymarket Atlanta KATL highest temperature Jun 10 2026 88-89F YES",
+      "observed_price": "about 42c",
+      "implied_probability": 0.42,
+      "estimated_fair_value": "0.40-0.52",
+      "edge_points": "-2 to 10",
+      "confidence": "low to medium-low",
+      "action": "maintain PT-20260609-092 only"
+    },
+    {
+      "market": "Polymarket Chicago KORD highest temperature Jun 10 2026 92-93F YES",
+      "observed_price": "about 43c",
+      "implied_probability": 0.43,
+      "estimated_fair_value": "0.40-0.50",
+      "edge_points": "-3 to 7",
+      "confidence": "medium-low",
+      "action": "maintain PT-20260609-093 only"
+    },
+    {
+      "market": "Polymarket Miami KMIA highest temperature Jun 10 2026 88-89F YES",
+      "observed_price": "uncertain; 86-87F leads visible pages around 43-44%",
+      "estimated_fair_value": "0.38-0.50",
+      "edge_points": "small and quote-sensitive",
+      "confidence": "low",
+      "action": "watch-only"
+    },
+    {
+      "market": "Polymarket Houston KHOU highest temperature Jun 10 2026 90-91F YES",
+      "observed_price": "no clean fresh quote; prior readable context about 36-45c",
+      "estimated_fair_value": "0.43-0.53",
+      "edge_points": "not actionable without fresh quote",
+      "confidence": "low",
+      "action": "watch-only"
+    },
+    {
+      "market": "Polymarket London EGLC highest temperature Jun 10 2026 17C/18C cluster",
+      "observed_price": "incomplete current market view",
+      "estimated_fair_value": "near market after source and exact-Celsius risk",
+      "confidence": "low",
+      "action": "no entry"
+    },
+    {
+      "market": "Polymarket Hong Kong Observatory highest temperature Jun 9 2026 30C NO",
+      "observed_price": "Jun 9 28C effectively 100%; no clean exit quote",
+      "estimated_fair_value": "99%+ NO conditional on final data",
+      "confidence": "medium",
+      "action": "maintain NO cluster pending final data"
+    }
+  ],
+  "sources": [
+    "https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-10-2026",
+    "https://polymarket.com/predictions/hong-kong",
+    "https://polymarket.com/event/highest-temperature-in-nyc-on-june-10-2026",
+    "https://polymarket.com/event/highest-temperature-in-chicago-on-june-10-2026",
+    "https://polymarket.copilot.markets/uk/event/highest-temperature-in-atlanta-on-june-10-2026",
+    "https://polymarket.com/predictions/miami",
+    "https://forecast.weather.gov/MapClick.php?lat=40.77917&lon=-73.88",
+    "https://forecast.weather.gov/MapClick.php?textField1=41.98&textField2=-87.9",
+    "https://forecast.weather.gov/MapClick.php?lat=33.6421&lon=-84.4213",
+    "https://forecast.weather.gov/MapClick.php?textField1=29.65&textField2=-95.28",
+    "https://forecast.weather.gov/MapClick.php?lat=25.79056&lon=-80.31639",
+    "https://www.hko.gov.hk/textonly/v2/forecast/local.htm",
+    "https://www.hko.gov.hk/textonly/v2/forecast/englishwx.htm",
+    "https://www.hko.gov.hk/textonly/v2/forecast/nday_v2.htm",
+    "https://data.weather.gov.hk/weatherAPI/hko_data/regional-weather/latest_since_midnight_maxmin.csv",
+    "https://weather.metoffice.gov.uk/forecast/u10j124jp"
+  ]
+}
