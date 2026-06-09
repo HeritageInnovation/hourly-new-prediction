@@ -1,0 +1,108 @@
+{
+  "time_checked_utc": "2026-06-09T07:08:00Z",
+  "time_checked_hkt": "2026-06-09T15:08:00+08:00",
+  "no_real_execution": true,
+  "markets_monitored": [
+    "Polymarket Hong Kong Observatory highest temperature Jun 9 2026",
+    "Polymarket Houston KHOU highest temperature Jun 9 2026",
+    "Polymarket NYC KLGA highest temperature Jun 9 2026",
+    "Polymarket Atlanta KATL highest temperature Jun 9 2026",
+    "Polymarket Chicago KORD highest temperature Jun 9 2026",
+    "Polymarket London EGLC highest temperature Jun 9 2026",
+    "Polymarket Miami KMIA highest temperature Jun 9 2026"
+  ],
+  "top_edges": [
+    {
+      "market": "Hong Kong Observatory Jun 9 30C NO",
+      "observed_price": "30C Yes 24-33c / No 69-77c across readable Polymarket pages",
+      "implied_probability": "0.69-0.77 NO",
+      "estimated_fair_value": "0.90-0.97 NO",
+      "estimated_edge": "0.13-0.28",
+      "confidence": "medium to medium-high",
+      "classification": "strong edge",
+      "paper_trade": "PT-20260609-089 BUY_NO $10 simulated notional"
+    },
+    {
+      "market": "Houston KHOU Jun 9 90-91F YES",
+      "observed_price": "30-42c across readable pages",
+      "implied_probability": "0.30-0.42",
+      "estimated_fair_value": "0.43-0.53",
+      "estimated_edge": "0.01-0.23",
+      "confidence": "medium-low",
+      "classification": "represented moderate edge",
+      "paper_trade": "no duplicate; PT-20260609-087 already open"
+    },
+    {
+      "market": "NYC KLGA Jun 9 80-81F YES",
+      "observed_price": "29-31c across readable pages",
+      "implied_probability": "0.29-0.31",
+      "estimated_fair_value": "0.35-0.45",
+      "estimated_edge": "0.04-0.16",
+      "confidence": "medium-low",
+      "classification": "represented moderate edge",
+      "paper_trade": "no duplicate; PT-20260608-080 already open"
+    },
+    {
+      "market": "Atlanta KATL Jun 9 84-85F YES",
+      "observed_price": "18-23c across readable pages",
+      "implied_probability": "0.18-0.23",
+      "estimated_fair_value": "0.23-0.33",
+      "estimated_edge": "0.00-0.15",
+      "confidence": "low to medium-low",
+      "classification": "represented weak-to-moderate edge",
+      "paper_trade": "no duplicate; PT-20260608-081 already open"
+    },
+    {
+      "market": "London EGLC Jun 9 19C YES",
+      "observed_price": "19-22c across readable pages",
+      "implied_probability": "0.19-0.22",
+      "estimated_fair_value": "0.20-0.30",
+      "estimated_edge": "0.00-0.11",
+      "confidence": "low",
+      "classification": "represented weak-to-moderate edge",
+      "paper_trade": "no duplicate; PT-20260608-079/PT-20260608-082 already open"
+    },
+    {
+      "market": "Chicago KORD Jun 9 86-87F YES",
+      "observed_price": "22-37c across conflicted pages; fresher snippets around 36-37c",
+      "implied_probability": "0.22-0.37",
+      "estimated_fair_value": "0.37-0.47",
+      "estimated_edge": "positive mainly if lower page is live",
+      "confidence": "low to medium-low",
+      "classification": "represented/page-conflicted edge",
+      "paper_trade": "no duplicate; PT-20260608-078 already open"
+    }
+  ],
+  "new_paper_trades": [
+    {
+      "id": "PT-20260609-089",
+      "timestamp_utc": "2026-06-09T07:08:00Z",
+      "market": "Polymarket Hong Kong Observatory Jun 9 highest temperature 30C NO",
+      "observed_price": "72c",
+      "implied_probability": "72% NO",
+      "estimated_fair_value": "90-97% NO",
+      "simulated_stance": "BUY_NO",
+      "simulated_size": "$10 notional",
+      "confidence": "medium to medium-high",
+      "status": "open"
+    }
+  ],
+  "sources": [
+    "https://polymarket.com/zh-hant/event/highest-temperature-in-hong-kong-on-june-9-2026?marketSlug=highest-temperature-in-hong-kong-on-june-9-2026-30c&outcomeIndex=1",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+    "https://data.weather.gov.hk/weatherAPI/hko_data/regional-weather/latest_since_midnight_maxmin.csv",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=en",
+    "https://forecast.weather.gov/MapClick.php?lat=29.65000&lon=-95.28000",
+    "https://forecast.weather.gov/MapClick.php?lat=40.77917&lon=-73.88",
+    "https://forecast.weather.gov/MapClick.php?CityName=Atlanta&state=GA&textField1=33.74463&textField2=-84.37577",
+    "https://forecast.weather.gov/MapClick.php?lat=41.97972&lon=-87.90444",
+    "https://forecast.weather.gov/MapClick.php?lat=25.782512&lon=-80.296165",
+    "https://weather.metoffice.gov.uk/forecast/u10j124jp",
+    "https://polymarket.com/zh/event/highest-temperature-in-houston-on-june-9-2026/highest-temperature-in-houston-on-june-9-2026-90-91f",
+    "https://polymarket.com/vi/event/highest-temperature-in-nyc-on-june-9-2026",
+    "https://polymarket.com/vi/event/highest-temperature-in-atlanta-on-june-9-2026?marketSlug=highest-temperature-in-atlanta-on-june-9-2026-82-83f&outcomeIndex=1",
+    "https://polymarket.com/vi/event/highest-temperature-in-chicago-on-june-9-2026/highest-temperature-in-chicago-on-june-9-2026-84-85f",
+    "https://polymarket.com/vi/event/highest-temperature-in-london-on-june-9-2026?marketSlug=highest-temperature-in-london-on-june-9-2026-18c&outcomeIndex=1",
+    "https://polymarket.com/vi/event/highest-temperature-in-miami-on-june-9-2026?marketSlug=highest-temperature-in-miami-on-june-9-2026-88-89f&outcomeIndex=0"
+  ]
+}
