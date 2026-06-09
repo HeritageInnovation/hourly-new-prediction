@@ -1,0 +1,118 @@
+{
+  "timestamp_utc": "2026-06-09T20:07:02Z",
+  "timestamp_hkt": "2026-06-10T04:07:02+08:00",
+  "real_trading_actions": "none",
+  "new_paper_trades": [
+    {
+      "trade_id": "PT-20260609-094",
+      "market": "Polymarket NYC KLGA highest temperature Jun 10 2026",
+      "contract": "76-77F YES",
+      "observed_price": "12c",
+      "implied_probability": "0.12",
+      "estimated_fair_value": "0.30-0.42",
+      "simulated_stance": "BUY_YES",
+      "simulated_size": "$10 notional",
+      "confidence": "medium-low",
+      "status": "open"
+    }
+  ],
+  "markets": [
+    {
+      "market": "Polymarket NYC KLGA highest temperature Jun 10 2026 76-77F YES",
+      "observed_price": "12% displayed; buy Yes about 12c; 78-79F 43%, 80-81F 29%, 82-83F 16%",
+      "implied_probability": "0.12",
+      "estimated_fair_value": "0.30-0.42",
+      "edge_points": "18-30",
+      "confidence": "medium-low",
+      "action": "open PT-20260609-094 add-on; maintain PT-20260609-090"
+    },
+    {
+      "market": "Polymarket Hong Kong Observatory highest temperature Jun 10 2026 28C YES",
+      "observed_price": "33% displayed; buy Yes about 33c; 29C 24%, 30C 22%, 31C 11%, 27C 10%",
+      "implied_probability": "0.33",
+      "estimated_fair_value": "0.42-0.54",
+      "edge_points": "9-21",
+      "confidence": "medium-low",
+      "action": "maintain PT-20260609-091; no duplicate above entry"
+    },
+    {
+      "market": "Polymarket London EGLC highest temperature Jun 10 2026 17C YES",
+      "observed_price": "17C about 34%; 18C about 26%",
+      "implied_probability": "0.34",
+      "estimated_fair_value": "0.38-0.48",
+      "edge_points": "4-14",
+      "confidence": "low to medium-low",
+      "action": "watch-only"
+    },
+    {
+      "market": "Polymarket Chicago KORD highest temperature Jun 10 2026 92-93F YES",
+      "observed_price": "42% displayed; buy Yes about 43c; 90-91F 25%, 94-95F 18%, 96F+ 10%",
+      "implied_probability": "0.42-0.43",
+      "estimated_fair_value": "0.40-0.50",
+      "edge_points": "-3 to 8",
+      "confidence": "medium-low",
+      "action": "maintain PT-20260609-093 only"
+    },
+    {
+      "market": "Polymarket Atlanta KATL highest temperature Jun 10 2026 88-89F YES",
+      "observed_price": "88-89F about 48%; 86-87F about 23%",
+      "implied_probability": "0.48",
+      "estimated_fair_value": "0.44-0.54",
+      "edge_points": "-4 to 6",
+      "confidence": "low to medium-low",
+      "action": "maintain PT-20260609-092 only"
+    },
+    {
+      "market": "Polymarket Houston KHOU highest temperature Jun 10 2026 90-91F YES",
+      "observed_price": "48% displayed; buy Yes about 48c; 88-89F 30%, 92-93F 13%, 86-87F 6%",
+      "implied_probability": "0.48",
+      "estimated_fair_value": "0.42-0.52",
+      "edge_points": "-6 to 4",
+      "confidence": "low to medium-low",
+      "action": "watch-only"
+    },
+    {
+      "market": "Polymarket Miami KMIA highest temperature Jun 10 2026 88-89F YES",
+      "observed_price": "related Polymarket context around 48%; direct quote quality incomplete",
+      "implied_probability": "0.48 quote-quality adjusted",
+      "estimated_fair_value": "0.42-0.54",
+      "edge_points": "-6 to 6",
+      "confidence": "low",
+      "action": "watch-only"
+    },
+    {
+      "market": "Polymarket Hong Kong Observatory highest temperature Jun 11 2026 29C YES",
+      "observed_price": "visible pages inconsistent, roughly high-20s to low-30s",
+      "implied_probability": "0.28-0.32",
+      "estimated_fair_value": "0.32-0.42",
+      "edge_points": "0-14 before quote-quality haircut",
+      "confidence": "low",
+      "action": "watch-only"
+    },
+    {
+      "market": "Polymarket Hong Kong Observatory highest temperature Jun 9 2026 30C NO",
+      "observed_price": "Jun 9 28C around 100%; no clean exit quote",
+      "estimated_fair_value": "99%+ NO conditional on final data",
+      "confidence": "medium",
+      "action": "maintain NO cluster pending final data"
+    }
+  ],
+  "sources": [
+    "https://polymarket.com/event/highest-temperature-in-nyc-on-june-10-2026/highest-temperature-in-nyc-on-june-10-2026-80-81f",
+    "https://polymarket.com/event/highest-temperature-in-hong-kong-on-june-10-2026",
+    "https://polymarket.com/ru/event/highest-temperature-in-hong-kong-on-june-11-2026",
+    "https://polymarket.com/event/highest-temperature-in-chicago-on-june-10-2026?marketSlug=highest-temperature-in-chicago-on-june-10-2026-92-93f&outcomeIndex=0",
+    "https://polymarket.com/ru/event/highest-temperature-in-atlanta-on-june-10-2026?marketSlug=highest-temperature-in-atlanta-on-june-10-2026-86-87f&outcomeIndex=1",
+    "https://polymarket.com/pt/event/highest-temperature-in-houston-on-june-10-2026?marketSlug=highest-temperature-in-houston-on-june-10-2026-90-91f&outcomeIndex=1",
+    "https://polymarket.com/event/highest-temperature-in-london-on-june-10-2026/highest-temperature-in-london-on-june-10-2026-17c",
+    "https://polymarket.com/event/highest-temperature-in-miami-on-june-9-2026",
+    "https://forecast.weather.gov/MapClick.php?lat=40.77917&lon=-73.88",
+    "https://forecast.weather.gov/MapClick.php?textField1=41.98&textField2=-87.9",
+    "https://forecast.weather.gov/zipcity.php?inputstring=KATL",
+    "https://forecast.weather.gov/MapClick.php?textField1=29.65&textField2=-95.28",
+    "https://forecast.weather.gov/MapClick.php?lat=25.79056&lon=-80.31639",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en",
+    "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+    "https://weather.metoffice.gov.uk/forecast/u10j124jp"
+  ]
+}
